@@ -1,6 +1,7 @@
 * {
     padding: 0;
-    margin: 0;box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 main {
@@ -20,18 +21,26 @@ main {
     right: 45%;
 }
 
+.carousel-inner {
+    height: 500px;
+    margin-top: -10px;
+}
+
+.carousel-item > img {
+
+}
+
 .form-container {
     background-color: rgb(73, 181, 194);
-    margin-top: -10px;
     color: white;
     padding-bottom: 5em;
 }
 
-#footer-container {
+footer {
     position: relative;
 }
 
-footer {
+.footer-container {
     position: absolute;
-    bottom: -730px;
+    bottom: -1150px;
 }
