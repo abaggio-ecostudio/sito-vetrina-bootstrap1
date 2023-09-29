@@ -1,0 +1,18 @@
+.servizi-bg {
+    background-image: url("../img/background_image.png");
+    margin-top: 7em;
+    color: white;
+    height: 13em;
+    padding: 0 7rem;
+}
+
+.text,
+.services-box {
+    padding: 0 7rem;
+    margin: 7em 0;
+}
+
+.services-box > * {
+    padding: 10em;
+}
+
